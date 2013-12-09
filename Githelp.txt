@@ -1,0 +1,17 @@
+git init
+erzeugt repository
+
+git status
+zeigt den aktuellen status an
+
+git add "filename"
+makiert das File das es nacher commitet werden kann
+
+git commit -m "neue Datei wurde erstellt"
+commited die Datei, -m um eine Message zu hinterlassen
+
+git log
+gibt log daten aus
+
+git log --pretty=fully
+git log --pretty=oneline
