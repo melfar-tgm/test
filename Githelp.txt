@@ -13,5 +13,15 @@ commited die Datei, -m um eine Message zu hinterlassen
 git log
 gibt log daten aus
 
-git log --pretty=fully
+git log --pretty=full
 git log --pretty=oneline
+
+git push
+git remote add origin https://github.com/melfar-tgm/test.git
+
+git fetch origin
+holt Daten aus dem Remote damit die lokale repo auf den gleichen Stand ist
+
+git pull origin master
+macht fetch,merge und commit
+
